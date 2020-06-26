@@ -23,7 +23,9 @@ class School
   end
   
   def sort
-    ans = roster.sort.to_h
-    return ans
+    @roster.collect do |roster|
+      roster.sort
+    end
+    @roster
   end
 end
