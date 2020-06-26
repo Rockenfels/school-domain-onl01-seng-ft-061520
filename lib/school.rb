@@ -24,9 +24,9 @@ class School
   
   def sort
     @roster.collect do |roster|
-      roster.sort
+       binding.pry
     end
-    binding.pry
+   
     @roster
   end
 end
