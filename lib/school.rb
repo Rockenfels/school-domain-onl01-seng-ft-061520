@@ -23,9 +23,7 @@ class School
   end
   
   def sort
-    ans = roster.sort
-    binding.pry
-    return ans.to_h
-    
+    ans = roster.sort.to_h
+    return ans
   end
 end
