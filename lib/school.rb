@@ -23,7 +23,7 @@ class School
   end
   
   def sort
-    ans = {roster.sort}
+    ans = { roster.sort() }
     binding.pry
   end
 end
