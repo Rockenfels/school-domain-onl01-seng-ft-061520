@@ -23,7 +23,6 @@ class School
   end
   
   def sort
-    @roster.sort
-    binding.pry
+    return @roster.sort
   end
 end
