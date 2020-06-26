@@ -25,7 +25,7 @@ class School
   def sort
     ans = {}
     @roster.collect do |roster|
-       ans[roster[0]] => roster[1].sort
+       ans[roster[0]] = roster[1].sort
        binding.pry
     end
    
