@@ -26,9 +26,8 @@ class School
     ans = {}
     @roster.collect do |roster|
        ans[roster[0]] = roster[1].sort
-       binding.pry
     end
    
-    @roster
+    ans
   end
 end
